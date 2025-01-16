@@ -3,12 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Include script.js</title>
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Hello, World!</h1>
+  <img src="playingHand.gif" alt="Hand playing rps" width="200" height="200">
 
-  
+  <h1>Rock Paper Scissors</h1>
+  <div class="choices">
+    <button id="rock">Rock</button>
+    <button id="paper">Paper</button>
+    <button id="scissors">Scissors</button>
+  </div>
+  <div id="results">
+    <p>Make your choice to start the game!</p>
+    <p id="score">Score: You 0 - 0 Computer</p>
+    <p id="winner"></p>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
+
