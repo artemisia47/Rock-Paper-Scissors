@@ -80,3 +80,6 @@ function getHumanChoice() {
   // Start the game
   playGame();
   
+  btn.addEventListener("click", function (e) {
+    console.log(e.target);
+  });
