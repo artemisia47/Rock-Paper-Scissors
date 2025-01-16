@@ -4,23 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rock Paper Scissors</title>
+  <!-- Link to external CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <img src="playingHand.gif" alt="Hand playing rps" width="200" height="200">
-
   <h1>Rock Paper Scissors</h1>
+  <img src="playingHand.gif" alt="A hand palying rsp" width="200" height="200">
+
   <div class="choices">
     <button id="rock">Rock</button>
     <button id="paper">Paper</button>
     <button id="scissors">Scissors</button>
   </div>
+
   <div id="results">
     <p>Make your choice to start the game!</p>
-    <p id="score">Score: You 0 - 0 Computer</p>
-    <p id="winner"></p>
   </div>
+
+  <div id="scores">
+    <p id="human-score">You: 0</p>
+    <p id="computer-score">Computer: 0</p>
+  </div>
+
+  <div id="winner"></div>
+
+  <button id="restart">Start Again</button>
+
+  <!-- Link to external JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
-
